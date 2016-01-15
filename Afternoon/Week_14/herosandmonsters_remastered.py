@@ -69,11 +69,14 @@ def fight_turn(hero: Hero, monster: Monster):
     print('{} vs {}'.format(hero.name, monster.name))
 
     attack(monster, hero)
-    attack(hero, monster)
+    if not hero.is_alive():
+        print('you died')
+    else:
+        attack(hero, monster)
 
 def main():
     h = Hero('Garen')
-    m = Monster('goblin', 1)
+    m = Monster('goblin', 10)
 
     while (h.is_alive() and m.is_alive()):
         fight_turn(h, m)
