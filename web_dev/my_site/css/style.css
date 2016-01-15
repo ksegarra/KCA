@@ -1,0 +1,54 @@
+/* This is our style.css file */
+/* We will use this to style our entire page. */
+
+#content {
+
+}
+
+#footer {
+	background-color: black;
+	color: white;
+	clear: both;
+	text-align: center;
+	padding: 5px;
+}
+
+#header {
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 5px;
+}
+
+#nav {
+	line-height: 30px;
+	background-color: #eeeeee;
+	height: 1000px;
+	width: 125px;
+	float: left;
+	padding: 5px;
+}
+
+#w3_frame {
+	width : 800px;
+	height : 1000px;
+}
+
+#section {
+
+}
+
+body{
+	background-color: brown;
+}
+
+p{
+	color: white;
+	font-style: "Comic Sans";
+	font-size: 200%;
+}
+
+a:hover{
+	color: grey;
+	font-family: arial;
+};
