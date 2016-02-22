@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Football</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/football.css" />
+</head>
+<body>
+
+<div class="col-sm-12">
+<div class="col-sm-6">
+<h1 id="team1Name"></h1>
+<div id="team1Score"></div>
+<button type="button" class="team1 btn btn-large" onclick="team1Td('td')">Touchdown</button>
+<button type="button" class="btn-warning btn btn-large" onclick="team1Td('fg')">Field Goal</button>
+</div>
+
+<div class="col-sm-6">
+<h1 id="team2Name"></h1>
+<div id="team2Score"></div>
+<button type="button" class="team2 btn btn-large" onclick="team2Td('td')">Touchdown</button>
+<button type="button" class="btn-warning btn btn-large" onclick="team2Td('fg')">Touchdown</button>
+</div>
+</div>
+
+<script src="js/football.js"></script>
+</body>
+</html>
